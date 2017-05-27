@@ -56,8 +56,8 @@ public class FilteredPriceService extends Thread {
         double avgPrice = queue.getAveragePrice();
         updateCounter(avgPrice);
         this.avgPrice = avgPrice;
-        logger.debug("Price:" + Util.toString(buyPrice) + "  " + Util.toString(sellPrice) + " avg: " + Util.toString(avgPrice)
-                + " In " + increasingCounter + " De " + decreasingCounter + " diff " + Util.toString(diff));
+        //logger.debug("Price:" + Util.toString(buyPrice) + "  " + Util.toString(sellPrice) + " avg: " + Util.toString(avgPrice)
+         //       + " In " + increasingCounter + " De " + decreasingCounter + " diff " + Util.toString(diff));
 
     }
 
