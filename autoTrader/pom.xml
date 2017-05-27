@@ -82,10 +82,6 @@
     <!--</build>-->
     <dependencies>
         <dependency>
-            <groupId>com.jontian.bitcoin</groupId>
-            <artifactId>dataRecording</artifactId>
-        </dependency>
-        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <!--<version>4.12</version>-->
