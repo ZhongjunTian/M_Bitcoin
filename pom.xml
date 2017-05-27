@@ -47,6 +47,16 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>com.jontian.bitcoin</groupId>
+                <artifactId>autoTrader</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jontian.bitcoin</groupId>
+                <artifactId>dataRecording</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
                 <version>1.4.1.RELEASE</version>
