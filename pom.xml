@@ -15,8 +15,8 @@
         <version>1.4.1.RELEASE</version>
     </parent>
     <modules>
-        <module>dataRecording</module>
-        <module>autoTrader</module>
+        <module>data-recorder</module>
+        <module>auto-trader</module>
     </modules>
 
     <build>
